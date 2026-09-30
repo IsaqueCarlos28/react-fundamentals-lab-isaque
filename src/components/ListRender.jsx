@@ -12,7 +12,6 @@ const ListRender = () => {
   // Gera um número de 0 a 3.
   const deleteRandom = () => {
     const randomNumber = Math.floor((Math.random() * 3) + 1);
-    console.log(randomNumber)
 
     // Recebe o estado anterior e cria um NOVO array sem o usuário sorteado.
     setUsers((prevUsers) => {
