@@ -2,7 +2,7 @@ import React from "react";
 
 const ConditionalRender = () => {
   const x = true;
-  const name = "Matheus";
+  const name = "João";
 
   return (
     <div>
